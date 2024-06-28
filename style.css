@@ -1,13 +1,15 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 16px;
     list-style: none;
 }
 body{
@@ -94,6 +96,10 @@ p{
     z-index: 100;
     padding: 10px;
 }
+/* header {
+    position: fixed;
+    z-index: 999; */
+
 header .header-bottom .nav-links li:hover .drobdwon li::after{
     display: none;
 }
@@ -480,6 +486,8 @@ header select option{
 
 
 /* start slide-sec */
+
+
 .slide-sec{
     padding: 30px 0;
     display: flex;
