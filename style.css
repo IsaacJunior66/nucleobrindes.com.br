@@ -843,15 +843,21 @@ footer .top-footer .row{
 footer .top-footer .small-row{
     width: 15%;
 }
+.hotline{
+    position: relative;
+    left: 60px
+}
 footer .top-footer .row .hotline{
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 footer .top-footer .row .hotline i{
-    color: #FB0404;
+    color: #fff;
     font-size: 60px;
     margin-right: 15px;
+    position: relative;
+    left: 15px;
 }
 footer .top-footer .row .hotline .hotline-text h6{
     color: #dddddd;
