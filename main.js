@@ -16,7 +16,7 @@ var swiper = new Swiper(".slide-swp", {
     slidesPerView: 2,
     spaceBetween: 30,
       autoplay: {
-        delay: 1000,
+        delay: 5000,
         disableOnInteraction: false,
       },
       navigation: {

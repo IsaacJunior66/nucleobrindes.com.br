@@ -129,6 +129,7 @@ header .header-bottom .nav-links .drobdwon li a:hover{
 .section-head{
     border-bottom: var(--border);
     margin-bottom: 30px;
+    top: 40px;
     position: relative;
 }
 .section-head::after{
@@ -771,6 +772,57 @@ header select option{
     color: #FB0404;
 }
 
+#div_fixa {
+    position: fixed;
+    bottom: 90px;
+    margin: 80px 1800px;
+    background-color: rgb(89, 245, 122);
+    width: 230px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#div_fixa img {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    left: 460px;
+}
+
+#div_fixa a .flex_itens {
+    display: flex;
+    align-items: center;
+}
+
+#div_fixa a .flex_itens span {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #040305;
+    margin-left: 5px;
+}
+
+.flutuar {
+    animation-name: flutuar;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar {
+    from {
+        transform: translate3d(0, 0, 0);
+        filter: blur(100%);
+    }
+
+    to {
+        transform: translate3d(0, -15px, 0);
+        filter: blur(150%);
+    }
+}
+
 
 
 
@@ -779,6 +831,7 @@ header select option{
 footer{
     background-color: #394150;
 }
+
 footer .top-footer{
     padding: 40px 0;
     display: flex;
