@@ -15,10 +15,10 @@ var swiper = new Swiper(".slide-swp", {
   var swiper = new Swiper(".deals", {
     slidesPerView: 2,
     spaceBetween: 30,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -43,10 +43,10 @@ var swiper = new Swiper(".slide-swp", {
   var swiper = new Swiper(".sale-sec", {
     slidesPerView: 5,
     spaceBetween: 30,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      // },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -80,10 +80,10 @@ var swiper = new Swiper(".slide-swp", {
   var swiper = new Swiper(".swip-with-img", {
     slidesPerView: 4,
     spaceBetween: 30,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   // delay: 50000,
+      //   disableOnInteraction: false,
+      // },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

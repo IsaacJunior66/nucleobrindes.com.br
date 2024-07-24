@@ -241,11 +241,16 @@ header .header-bottom .nav-links .drobdwon li a:hover{
     color: #FB0404;
     cursor: pointer;
 }
-.product-item .price span{
-    color: var(--main-color);
+.product-item .price button{
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-right: 15px;
+    background-color: rgba(255, 0, 0, 0.74);
+    border-radius: 5px;
+    border: #fff;
+    width: 150px;
+    cursor: pointer;
 }
 .product-item .price del{
     color: var(--parg-color);
